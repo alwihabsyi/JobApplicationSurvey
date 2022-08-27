@@ -1,0 +1,117 @@
+body {
+    background-color: rgba(147, 139, 255, 0.541);
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-blend-mode: soft-light;
+    background-size:2000px 1400px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #ececf0;
+    font-family: Tahoma;
+    font-size: 20px;
+  }
+  
+hr{
+  width:50%;
+  height: 2px;
+  background-color: #bdbdbe;
+  border-color: #bdbdbe;
+}
+
+.application{
+  background-color:rgba(16, 22, 54, 0.63);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  max-width: 650px;
+}
+
+form{
+  width: 60vw;
+	max-width: 600px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+	margin: 0.5rem 0;
+}
+
+h1{
+    margin-top: 1em;
+    text-align: center;
+  }
+
+p{
+  text-align: center;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+.description{
+  font-family: Arial;
+  font-style: italic;
+}  
+
+input, textarea {
+    background-color: #e6e6ff;
+    border: 1px solid #3e3eff;
+    padding: 7px;
+    border-radius: 8px;
+    color: #000000;
+  }
+
+textarea{
+  min-height: 90px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #4dc036;
+    border: none;
+    min-width: 500px;
+    border-radius: 8px;
+  }
+
+.cons{
+  margin-top:3em;
+  display:block;
+  text-align: left;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+  }
+
+input[type="checkbox"]{
+  border:0;
+  height: 18px;
+  width: 18px;
+}
+
+input[type="radio"]{
+  border:0;
+  height: 18px;
+  width: 18px;
+}
